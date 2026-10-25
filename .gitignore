@@ -1,0 +1,69 @@
+# ============================================
+# C++ / CMake build artifacts
+# ============================================
+build/
+bin-build/
+cmake-build-*/
+out/
+.cache/
+
+# CMake generated files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+*.ninja
+.ninja_*
+compile_commands.json
+CTestTestfile.cmake
+
+# GoogleTest FetchContent artifacts
+_deps/
+googletest-build/
+googletest-src/
+googletest-subbuild/
+
+# Binaries and libraries
+*.o
+*.obj
+*.so
+*.dylib
+*.dll
+*.a
+*.lib
+*.out
+*.exe
+bin/main
+
+# ============================================
+# Code Coverage & Profiling
+# ============================================
+*.gcda
+*.gcno
+*.gcov
+coverage/
+*.info
+coverage.xml
+
+# ============================================
+# IDEs and Editors
+# ============================================
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*~
+*.suo
+*.user
+
+# ============================================
+# macOS junk
+# ============================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+__MACOSX/
